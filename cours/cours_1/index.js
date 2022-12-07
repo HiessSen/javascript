@@ -15,7 +15,7 @@ console.log(resultat);
 console.log('La tête à toto');
 
 
-let age = "44";
+let age = '44';
 age +=1; // age = age +1
 console.log(age);
 let ageEnNombre = parseInt(age);
