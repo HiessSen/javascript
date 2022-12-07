@@ -7,5 +7,5 @@ let rayon = prompt('Quelle est le rayon du cercle ?');
 // parseInt permet de recuperer un nombre dans un string ecrit en caracteres numériques.
 // Math.pow permet de calculer les puissances : parseInt(nombre),exposant
 // Math.PI permet de recuperer Pi
-let aireCercle = Math.PI * Math.pow(parseInt(rayon),2); 
+let aireCercle = Math.PI * Math.pow(parseInt(rayon),2);
 alert('Le rayon du cerle est de ' + aireCercle);
