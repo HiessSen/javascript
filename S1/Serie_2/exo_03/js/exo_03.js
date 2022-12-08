@@ -1,8 +1,4 @@
-let display = "";
-let i;
-for (i = 0 ; i <= 20 ; i++) {
-    if(i%2 == 0 && i != 0){
-        display = display + i + "-";
-    }
-}
-console.log(display);
+let longueur = 20;
+let largeur = 15;
+surface = longueur * largeur;
+console.log('Votre rèctangle fait ' + longueur + ' de longueur et ' + largeur + ' de largeur. Sa surface est donc de ' + surface + '.')

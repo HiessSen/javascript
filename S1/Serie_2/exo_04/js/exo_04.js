@@ -1,7 +1,4 @@
-let i = 0;
-let display = 2;
-let messages = document.getElementsByClassName("deux");
+temperatureCelcius = prompt('Quelle est la température en degrées Celcius ?');
+temperatureKelvin = parseInt(temperatureCelcius) + 375.15;
 
-for(i=0 ; i<=16 ; i++){
-    messages[i].innerHTML=parseInt(display) + ' puissance ' + parseInt(i) + ' est égal à ' + Math.pow(parseInt(display),parseInt(i))
-}
+console.log('Il fait ' + temperatureKelvin + '°K')

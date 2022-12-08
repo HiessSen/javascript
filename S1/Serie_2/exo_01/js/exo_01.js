@@ -1,3 +1,2 @@
-for (let i = 1 ; i <= 10 ; i++) {
-    console.log(i); 
-}
+let prenom = prompt('Veuillez entrer votre nom svp.');
+    alert('Bienvenue ' + prenom + '. Ça va ou quoi ?')
