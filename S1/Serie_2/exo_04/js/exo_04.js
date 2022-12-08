@@ -1,3 +1,7 @@
-let temperatureCelsius = prompt("Veuillez entrer une température en degrés Celsius.");
-let temperatureKelvin = parseInt(temperatureCelsius) + 273.15;
-console.log("La température en Celsius est de " + temperatureCelsius + "° et la température en Kelvin est donc de " + temperatureKelvin + "°.");
+let i = 0;
+let display = 2;
+let messages = document.getElementsByClassName("deux");
+
+for(i=0 ; i<=16 ; i++){
+    messages[i].innerHTML=parseInt(display) + ' puissance ' + parseInt(i) + ' est égal à ' + Math.pow(parseInt(display),parseInt(i))
+}

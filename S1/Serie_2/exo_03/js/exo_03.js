@@ -1,4 +1,8 @@
-let longueur = prompt("Veuillez entrer une longueur");
-let largeur = prompt("Veuillez entrer une largeur");
-let surface = longueur * largeur;
-console.log("le rectangle de longueur " + longueur + "cm et de largeur de " + largeur + "cm a pour surface "+ surface +"cm2");
+let display = "";
+let i;
+for (i = 0 ; i <= 20 ; i++) {
+    if(i%2 == 0 && i != 0){
+        display = display + i + "-";
+    }
+}
+console.log(display);

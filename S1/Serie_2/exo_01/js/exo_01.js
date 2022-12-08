@@ -1,3 +1,3 @@
-let prenom = prompt("Quel est votre prénom ?");
-
-console.log("Oh ? Tu t'appelle " + prenom + " ? C'est super !");
+for (let i = 1 ; i <= 10 ; i++) {
+    console.log(i); 
+}

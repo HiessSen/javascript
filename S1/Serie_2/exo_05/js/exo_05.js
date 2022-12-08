@@ -1,10 +1,8 @@
-let x = prompt("Veuillez entrer un nombre");
-let y = prompt("Veuillez entrer un autre nombre");
+let i = 0;
+let display = 2;
+let messages = document.getElementsByClassName("deux");
 
-let paragraphe = document.getElementById("p1");
-   
-if(x > y)
-    paragraphe.innerHTML="X est plus grand que Y";
-else{
-    paragraphe.innerHTML="Y est plus grand que X";
-    }
+while(i<=16){
+    messages[i].innerHTML=parseInt(display) + ' puissance ' + parseInt(i) + ' est égal à ' + Math.pow(parseInt(display),parseInt(i));
+    i++;
+}
