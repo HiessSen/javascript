@@ -1,3 +1,6 @@
-let rayon = 10;
-let surface =  Math.PI * Math.pow(parseInt(rayon),2);
-console.log("le cercle de rayon " + rayon + " cm pour surface " + surface + " cm2 ");
+let exposant = 0;
+while(exposant <=16)
+    {
+        console.log(`2^${exposant} = ${Math.pow(2,exposant)}`);
+        exposant++;
+}

@@ -1,5 +1,8 @@
-let prenom = "Ilan";
-let age = 30;
-
-age = parseInt(age + 1);
-console.log("Je m'appelle " + prenom + " et j'aurai bientôt " + age + " ans.");
+let i;
+for(i = 0 ; i <=10 ; i++){
+    if(i%2==0){
+        console.log(i + " est un nombre pair");
+    }else{
+        console.log(i + " est un nombre impair");
+    }
+}

@@ -1,4 +1,9 @@
-let longueur = 10;
-let largeur = 5;
-let surface = longueur * largeur;
-console.log("Votre rectangle a pour longueur " + longueur + "cm, pour largeur " + largeur + "cm et sa surface est de " + surface + "cm². Que demander de plus ?");
+let x = parseInt(prompt('Veuillez entrer un nombre X'));    // 3
+let n = parseInt(prompt('Veuillez entrer un nombre N'));    // 5
+let i;
+let j = 1;
+
+for(i=0 ; i<n ; i++){
+    j = j * x;
+}
+console.log(x + ' puissance ' + n + ' = ' + j);

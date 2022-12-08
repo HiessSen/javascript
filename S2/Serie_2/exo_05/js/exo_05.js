@@ -1,3 +1,33 @@
-let rayon = 10;
-let surface =  Math.PI * Math.pow(parseInt(rayon),2);
-console.log("le cercle de rayon " + rayon + " cm pour surface " + surface + " cm2 ");
+let i = 0;
+
+while(i < 10){
+    if(i %2 == 0){
+        console.log(i + " est un nombre pair");
+    }else{
+        console.log(i + " est un nombre impair");
+    }
+    i++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
