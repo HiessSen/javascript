@@ -97,7 +97,3 @@ function listerLesClasses()
     });
     return message; 
 }
-
-// function saluerSansAlertes(
-
-// )
