@@ -1,8 +1,13 @@
-let i;
-for(i = 0 ; i <=10 ; i++){
-    if(i%2==0){
-        console.log(i + " est un nombre pair");
-    }else{
-        console.log(i + " est un nombre impair");
-    }
+//saisir le nombre d'étoiles
+let nombreSaisi = parseInt(prompt('Combien d\'étoiles?'));
+// vérifier s'il est compris entre 1 et 10 inclus
+if ((!isNaN(nombreSaisi))&&(estDansIntervalle(nombreSaisi,1,10)))
+{
+// si le nombre d etoile est ok: afficher les étoiles
+    console.log(retournerTexteEtoiles(nombreSaisi));
+}
+else
+{
+// sinon afficher un message d'erreur
+console.log("Saisie incorrecte");
 }

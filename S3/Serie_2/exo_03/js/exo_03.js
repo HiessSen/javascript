@@ -1,8 +1,7 @@
-let n = parseInt(prompt('Veuillez entrer un nombre N'));    // 5
-let j = 1;
-let i;
+// saisir un nombre d'étoile qui est bien un nombre entre 1 et 10 inclus
 
-for(i=1 ; i<=n ; i++){
-    j = j*i
+let nombreEtoileDemande = saisirNombreEtoiles(1,10);
+for(let i=1;i<=nombreEtoileDemande;i++)
+{
+    console.log(retournerTexteEtoiles(i));
 }
-console.log(n + "! = " + j);

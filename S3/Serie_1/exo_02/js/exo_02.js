@@ -1,4 +1,10 @@
-let longueur = 10;
-let largeur = 5;
-let surface = longueur * largeur;
-console.log("Votre rectangle a pour longueur " + longueur + "cm, pour largeur " + largeur + "cm et sa surface est de " + surface + "cm². Que demander de plus ?");
+let etoile = parseInt(prompt('Veuillez entrer un nombre entre 1 et 10'));
+let i;
+
+while(etoile<1 || etoile>10 || isNaN(etoile) === true){
+    console.log('Vous n\'avez pas entré une valeur correcte');
+    etoile = parseInt(prompt('Veuillez entrer un nombre entre 1 et 10'));
+}
+for(i=0 ; i<1 ; i++){
+    console.log(etoile + ' Étoiles ont été saisies : ' + '*'.repeat(etoile));
+}
