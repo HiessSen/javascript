@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/fonctions.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <title>Conversion monney ma gueule !</title>
+</head>
+<body>
+
+    <!-- Convertir les couronne
+    <input type="text" name="montantDepart" id="montantDepart">
+    en dollars
+    <input type="text" name="montantArrivee" id="montantArrivee">
+    <button id="btn_convertir">Go !</button> -->
+<div id="contanier">
+    <div class="ligne">
+        <label for="saisie">Saisie : </label>
+        <input type="text" name="saisie" id="saisie">
+        <button id="btn_effacer_last" value="2">Effacer</button>
+        <button id="btn_effacer">Tout effacer</button>
+    </div>
+  
+    <div classe="ligne">
+        <button class="btn_entree" value="1">1</button>
+        <button class="btn_entree" value="2">2</button>
+        <button class="btn_entree" value="3">3</button>
+        <button class="btn_entree" value="4">4</button>
+        <button class="btn_entree" value="5">5</button>
+        <button class="btn_entree" value="6">6</button>
+        <button class="btn_entree" value="7">7</button>
+        <button class="btn_entree" value="8">8</button>
+        <button class="btn_entree" value="9">9</button>
+        <button class="btn_entree" value="0">0</button>
+        <button class="btn_entree" value=",">,</button>
+    </div>
+    <div class="ligne">
+            <fieldset>
+            <legend>Veuilez choisir une devise à convertir</legend>
+            <input type="radio" classe="deviseSource" id="euros" name="deviseSource" value="euros" checked>
+            <label for="euros">Euros</label>
+            <input type="radio" classe="deviseSource" id="dollars" name="deviseSource" value="dollars">
+            <label for="dollars">Dollars</label>
+            <input type="radio" classe="deviseSource" id="couronnes" name="deviseSource" value="couronnes">
+            <label for="couronnes">Couronnes</label>
+        </fieldset>
+    </div>
+    <div class="ligne">
+        <fieldset>
+            <legend>Veuilez choisir la devise souhaitée</legend>
+            <input type="radio" classe="deviseTarget" id="eurosTarget" name="deviseTarget" value="euros">
+            <label for="eurosTarget">Euros</label>
+            <input type="radio" classe="deviseTarget" id="dollarsTarget" name="deviseTarget" value="dollars" checked>
+            <label for="dollarsTarget">Dollars</label>
+            <input type="radio" classe="deviseTarget" id="couronnesTarget" name="deviseTarget" value="couronnes">
+            <label for="couronnesTarget">Couronnes</label>
+        </fieldset>
+    </div>
+    <button id="btn_convert" value="=">Convertir</button>
+    <label for="result">Résultat : </label>
+    <textArea id="result"></textArea>
+</div>
+
+</body>
+</html>

@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
-    <link rel="stylesheet" href="index.css">
+    <title>Calculatrice</title>
 </head>
 <body>
-    <div class="calculatrice">
+    <!-- <div class="calculatrice">
         <div class="ecran"></div>
         <div class="touches">
+           
             <button data-key="8" class="bouton">C</button>
+            <button data-key="3" class="bouton" >^</button>
+            <button data-key="2" class="bouton">√x</button>
+            <button data-key="1" class="bouton"id="pi">π</button>
+            <button data-key="4" class="bouton" ></button>
             <button data-key="53" class="bouton">(</button>
             <button data-key="219" class="bouton">)</button>
             <button data-key="111" class="bouton">/</button>
@@ -32,6 +37,27 @@
             <button data-key="110" class="bouton">.</button>
             <button data-key="13" class="bouton">=</button>
         </div>
-    </div>
+    </div> -->
+
+    <div id="ecran"></div>
+    <input type="text" name="tampon" id="tampon">
+    <button class="btn_chiffre" value="1">1</button>
+    <button class="btn_chiffre" value="2">2</button>
+    <button class="btn_chiffre" value="3">3</button>
+    <button class="btn_chiffre" value="4">4</button>
+    <button class="btn_chiffre" value="5">5</button>
+    <button class="btn_chiffre" value="6">6</button>
+    <button class="btn_chiffre" value="7">7</button>
+    <button class="btn_chiffre" value="8">8</button>
+    <button class="btn_chiffre" value="9">9</button>
+    <button class="btn_chiffre" value="0">0</button>
+    <button class="btn_operateur" value="/">/</button>
+    <button class="btn_operateur" value="*">*</button>
+    <button class="btn_operateur" value="-">-</button>
+    <button class="btn_operateur" value="+">+</button>
+    <button id="btn_egal" value="=">=</button>
+    <button id="btn_effacer" value="effacer">CLEAR</button>
+    <button id="btn_effacer_last" value="effacer_last">&larr;</button>
+
 </body>
 </html>

@@ -16,7 +16,7 @@ document.querySelector('#emotes').innerHTML=`<ul><li>${emoteRaciale}</li><li>${e
 
 function genererEmoteSociale() {
     let rang = document.querySelector('input[name=rank]:checked').value;
- let emote = "";
+    let emote = "";
     switch (rang) {
         case 'royal':
             emote = emoteRoi();
@@ -36,11 +36,14 @@ function genererEmoteRaciale() {
     let emote = "";
     switch (race) {
         case 'elf':
-            emote = emoteElfe();break;
+            emote = emoteElfe();
+            break;
         case 'ork':
-            emote = emoteOrque();break;
+            emote = emoteOrque();
+            break;
         default:
-            emote = emoteHumain();break;
+            emote = emoteHumain();
+            break;
     }
     return emote;
 }
