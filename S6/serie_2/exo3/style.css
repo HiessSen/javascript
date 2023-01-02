@@ -1,0 +1,12 @@
+#contanier{
+    width: 50%;
+    margin: 5% 20%;
+    padding: 5%;
+    border:1px solid #000;
+}
+.ligne{
+    margin: 1%;
+}
+.btn_entree{
+    margin: 1% 0.5%;
+}
