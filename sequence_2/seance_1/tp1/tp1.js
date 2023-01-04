@@ -63,7 +63,7 @@ function fonctionToutMasquer(){
         parent.style.display = 'none';
     }else{
         parent.style.display = 'block';
-    }
+    }   
 }
 
 btnRandom.addEventListener('click',couleurRandom);
