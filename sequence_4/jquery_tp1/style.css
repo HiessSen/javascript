@@ -1,0 +1,8 @@
+#chargement {
+    background-color: lightblue;
+    min-height: 100vh;
+}
+#contenu {
+    background-color: whitesmoke;
+    display: none;
+}
